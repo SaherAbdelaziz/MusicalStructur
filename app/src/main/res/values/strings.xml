@@ -2,7 +2,10 @@
     <string name="app_name">MusicalStructre</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="buyApplayout">we may use  Google Payment API</string>
+    <string name="homestring"> here is home where we may put notifications and other things </string>
+    <string name="nowplaying"> this show song that is running right now </string>
+    <string name="songdetails"> this activity shows song details</string>
 
     <string name="nowPlaying"> Now Playing </string>
     <string name="songs"> Songs </string>
