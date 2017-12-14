@@ -15,10 +15,10 @@ import java.util.ArrayList;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class mySongs extends Fragment {
+public class MySongsFragment extends Fragment {
 
 
-    public mySongs() {
+    public MySongsFragment() {
         // Required empty public constructor
     }
 

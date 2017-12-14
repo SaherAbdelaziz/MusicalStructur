@@ -15,11 +15,11 @@ import android.widget.TextView;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class nowPlaying extends Fragment {
+public class NowPlayingFragment extends Fragment {
 
 
-    public nowPlaying() {
-        // Required empty public constructor
+    public NowPlayingFragment() {
+
     }
 
 
@@ -32,12 +32,4 @@ public class nowPlaying extends Fragment {
         return rootView ;
     }
 
-
-
-    //@Override
-    //public void onCreate(@Nullable Bundle savedInstanceState) {
-     //   super.onCreate(savedInstanceState);
-
-
-    //}
 }

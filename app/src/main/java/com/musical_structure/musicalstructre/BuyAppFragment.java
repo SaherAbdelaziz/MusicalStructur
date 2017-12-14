@@ -7,13 +7,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+
 /**
  * A simple {@link Fragment} subclass.
  */
-public class home extends Fragment {
+public class BuyAppFragment extends Fragment {
 
 
-    public home() {
+    public BuyAppFragment() {
         // Required empty public constructor
     }
 
@@ -21,9 +22,8 @@ public class home extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.homelayout, container, false);
-
-        return rootView ;
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.buy_app, container, false);
     }
 
 }

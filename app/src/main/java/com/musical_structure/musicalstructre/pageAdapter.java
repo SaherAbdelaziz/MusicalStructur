@@ -41,14 +41,14 @@ public class pageAdapter extends FragmentStatePagerAdapter {
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
-            return new nowPlaying();
+            return new NowPlayingFragment();
         } else if (position == 1) {
-            return new mySongs();
+            return new MySongsFragment();
         } else if (position == 2) {
-            return new home();
+            return new HomeFragment();
         }
         else {
-            return new BuyApp();
+            return new BuyAppFragment();
         }
         //return  null ;
     }

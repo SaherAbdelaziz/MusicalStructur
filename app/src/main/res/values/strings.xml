@@ -2,9 +2,11 @@
     <string name="app_name">MusicalStructre</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="buyApplayout">we may use  Google Payment API</string>
+    <string name="buyApplayout">to use  Google Payment API to setup we have to add dependencies for it ,, then modify manifest \n
+    to use it whe have to  Create PaymentsClient instance then Implement the isReadyToPay method and  Create PaymentDataRequest object \n
+    then Create OnClickListener object then Handle the PaymentData response object</string>
     <string name="homestring"> here is home where we may put notifications and other things </string>
-    <string name="nowplaying"> this show song that is running right now </string>
+    <string name="nowplaying"> this show song that is running right now and will use MediaPlayer</string>
     <string name="songdetails"> this activity shows song details</string>
 
     <string name="nowPlaying"> Now Playing </string>
